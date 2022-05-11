@@ -58,3 +58,14 @@ class Mathematic:
             min = 0
         return min
 ########################################################################################
+    def sum(data):
+        if type(data) == int or type(data) == float:   
+            sum = data
+        elif type(data) == list:
+            sum = 0
+            for number in data:
+                sum = sum + number
+        else:
+            sum = 0
+        return sum
+########################################################################################
